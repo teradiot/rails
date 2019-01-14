@@ -1,3 +1,7 @@
+*   Remove deprecated `expand_hash_conditions_for_aggregates`.
+
+    *Rafael Mendonça França*
+
 *   Add support for endless ranges introduces in Ruby 2.6.
 
     *Greg Navis*

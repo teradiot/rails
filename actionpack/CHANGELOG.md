@@ -1,3 +1,10 @@
+*   Remove deprecated methods in `ActionDispatch::TestResponse`.
+
+    `#success?`, `missing?` and `error?` were deprecated in Rails 5.2 in favor of
+    `#successful?`, `not_found?` and `server_error?`.
+
+    *Rafael Mendonça França*
+
 *   Introduce ActionDispatch::HostAuthorization
 
     This is a new middleware that guards against DNS rebinding attacks by

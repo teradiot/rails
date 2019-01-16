@@ -1,3 +1,7 @@
+*   Remove deprecated `config.secret_token`.
+
+    *Rafael Mendonça França*
+
 *   Use original `bundler` environment variables during the process of generating a new rails project.
 
     *Marco Costa*
